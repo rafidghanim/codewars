@@ -1,0 +1,3 @@
+def high_and_low(numbers):
+    # ...
+    return f"{max([eval(i) for i in numbers.split()])} {min([eval(i) for i in numbers.split()])}"
